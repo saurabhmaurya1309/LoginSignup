@@ -46,7 +46,7 @@ const Signup = () => {
                 const body = JSON.stringify(newUser);
 
                 const res = await axios.post(
-                    'http://localhost:5000/api/users/signup',
+                    'https://loginsignup-dchd.onrender.com/api/users/signup',
                     body,
                     config
                 );
